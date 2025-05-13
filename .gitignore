@@ -1,4 +1,51 @@
+# Systèmes d'exploitation
 .DS_STORE
-# Ignore PowerPoint temporary/lock files
+Thumbs.db
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Temporaires et fichiers de verrouillage
+*~
+*.swp
+*.tmp
+*.temp
 *~$*.ppt
 *~$*.pptx
+.~lock.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+.env
+
+# Fichiers de logs
+logs/
+*.log
+security_logs/
+*.json
+
+# Fichiers de cache
+.cache/
+.pytest_cache/
